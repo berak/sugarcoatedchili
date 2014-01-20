@@ -28,7 +28,7 @@ ls
 
 
 # -------------------
-tar -xf ${CACHE_DIR}/ocv.tgz
+tar -xf ocv.tgz
 
 # make
 echo "-----> Compiling with Make"
