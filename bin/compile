@@ -13,9 +13,12 @@ function indent() {
     *) sed -u "$c";;
   esac
 }
-
+pwd 
+ls
 cd $BUILD_DIR
-
+echo BUILD_DIR
+pwd 
+ls
 # configure
 #if [ -f configure ]; then
 #echo "-----> Configuring"
