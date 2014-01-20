@@ -1,0 +1,12 @@
+#!/bin/sh
+# bin/release <build-dir>
+
+echo "--- {}"
+#!/bin/sh
+
+cat << EOF
+---
+addons:
+config_vars:
+PATH: /app/bin:/usr/local/bin:/usr/bin:/bin
+EOF
