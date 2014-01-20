@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-ecjo "hahaha"
+echo "hahaha"
 exit 1
 #if [[ -f $1/ocv ]]; then
 #	echo "C" && exit 0
