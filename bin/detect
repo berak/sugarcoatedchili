@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
-if [[ -f $1/ocv ]]; then
-	echo "C" && exit 0
-else
-	echo "no" && exit 1
-fi
+
+ecjo "hahaha"
+exit 1
+#if [[ -f $1/ocv ]]; then
+#	echo "C" && exit 0
+#else#
+#	echo "no" && exit 1
+#fi
 
 
