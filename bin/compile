@@ -25,7 +25,7 @@ cd $BUILD_DIR
 
 
 # -------------------
-tar -xf ocv.tgz
+tar -xf $(CACHE_DIR)/ocv.tgz
 
 # make
 echo "-----> Compiling with Make"
