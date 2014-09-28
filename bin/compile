@@ -25,9 +25,10 @@ ls
 #  ./configure 2>&1 | indent
 #fi
 
-curl -s https://github.com/berak/sugarcoatedchili/raw/master/ocv.tgz > ocv.tgz
+git clone https://github.com/berak/sugarcoatedchili.git
+#curl -s https://github.com/berak/sugarcoatedchili/raw/master/ocv.tgz > ocv.tgz
 #git clone git@github.com:berak/sugarcoatedchili.git
-#cp sugarcoatedchili/ocv.tgz .
+mv sugarcoatedchili/ocv.tgz .
 # -------------------
 #tar -xf ocv.tgz
 
