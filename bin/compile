@@ -32,6 +32,10 @@ mv sugarcoatedchili/ocv.tgz .
 # -------------------
 #tar -xf ocv.tgz
 
+
+curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
+tar zxf ant.tgz
+
 # make
 echo "-----> Compiling with Make"
 make 2>&1 | indent
