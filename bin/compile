@@ -24,8 +24,3 @@ curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.g
 tar zxf ant.tgz
 
 ls
-
-# make
-echo "-----> Compiling with Make"
-make 2>&1 | indent
-
