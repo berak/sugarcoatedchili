@@ -29,11 +29,11 @@ git clone https://github.com/berak/sugarcoatedchili.git
 #curl -s https://github.com/berak/sugarcoatedchili/raw/master/ocv.tgz > ocv.tgz
 #git clone git@github.com:berak/sugarcoatedchili.git
 
-mv sugarcoatedchili/ocv.tgz .
-mv sugarcoatedchili/ocv3.tgz .
-
+#mv sugarcoatedchili/ocv.tgz .
+#mv sugarcoatedchili/ocv3.tgz .
+tar -xf sugarcoatedchili/ocv.tgz
+tar -xf sugarcoatedchili/ocv3.tgz
 # -------------------
-#tar -xf ocv.tgz
 
 
 curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
