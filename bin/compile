@@ -6,38 +6,16 @@ set -o pipefail
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-function indent() {
-  c='s/^/ /'
-  case $(uname) in
-    Darwin) sed -l "$c";;
-    *) sed -u "$c";;
-  esac
-}
 pwd 
-ls
-cd $BUILD_DIR
-echo BUILD_DIR
-pwd 
-ls
-# configure
-#if [ -f configure ]; then
-#echo "-----> Configuring"
-#  ./configure 2>&1 | indent
-#fi
 
 git clone https://github.com/berak/sugarcoatedchili.git
-#curl -s https://github.com/berak/sugarcoatedchili/raw/master/ocv.tgz > ocv.tgz
-#git clone git@github.com:berak/sugarcoatedchili.git
-
-#mv sugarcoatedchili/ocv.tgz .
-#mv sugarcoatedchili/ocv3.tgz .
 tar -xf sugarcoatedchili/ocv.tgz
 tar -xf sugarcoatedchili/ocv3.tgz
-# -------------------
-
 
 curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
 tar zxf ant.tgz
+
+ls
 
 # make
 echo "-----> Compiling with Make"
