@@ -15,6 +15,8 @@ function indent() {
 }
 
 pwd 
+cd $BUILD_DIR
+pwd 
 
 git clone https://github.com/berak/sugarcoatedchili.git
 tar -xf sugarcoatedchili/ocv.tgz
