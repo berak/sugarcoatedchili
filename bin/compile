@@ -21,6 +21,7 @@ pwd
 git clone https://github.com/berak/sugarcoatedchili.git
 tar -xf sugarcoatedchili/ocv.tgz
 tar -xf sugarcoatedchili/ocv3.tgz
+tar -xf sugarcoatedchili/cmake.tgz
 
 curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
 tar zxf ant.tgz
