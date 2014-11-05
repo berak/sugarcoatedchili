@@ -25,5 +25,5 @@ tar -xf sugarcoatedchili/ocv3.tgz
 
 curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
 tar zxf ant.tgz
-
+rm ant.tgz
 ls
