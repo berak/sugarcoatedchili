@@ -25,8 +25,9 @@ tar -xf sugarcoatedchili/ocv.tgz
 tar -xf sugarcoatedchili/ocv3.tgz
 rm -rf sugarcoatedchili
 
+echo ocv ok.
 
-curl http://artfiles.org/apache.org/ant/binaries/apache-ant-1.9.5-bin.tar.gz > ant.tgz
+curl http://artfiles.org/apache.org/ant/binaries/apache-ant-1.9.6-bin.tar.gz > ant.tgz
 #curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
 tar zxf ant.tgz
 rm ant.tgz
