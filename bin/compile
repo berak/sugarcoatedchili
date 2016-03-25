@@ -25,6 +25,9 @@ tar -xf sugarcoatedchili/ocv.tgz
 tar -xf sugarcoatedchili/ocv3.tgz
 rm -rf sugarcoatedchili
 
+mkdir py27
+cp ocv/lib/python2.7/site-packages/cv2.so py27/cv2.so
+
 echo ocv ok.
 
 #curl http://artfiles.org/apache.org/ant/binaries/apache-ant-1.9.6-bin.tar.gz > ant.tgz
