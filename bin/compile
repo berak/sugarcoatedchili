@@ -21,12 +21,12 @@ pwd
 git clone https://github.com/berak/sugarcoatedchili.git
 ls -l sugarcoatedchili
 
-tar -xf sugarcoatedchili/ocv.tgz
+#tar -xf sugarcoatedchili/ocv.tgz
 tar -xf sugarcoatedchili/ocv3.tgz
 rm -rf sugarcoatedchili
 
-mkdir py27
-cp ocv/lib/python2.7/site-packages/cv2.so py27/cv2.so
+#mkdir py27
+#cp ocv/lib/python2.7/site-packages/cv2.so py27/cv2.so
 
 echo ocv ok.
 
