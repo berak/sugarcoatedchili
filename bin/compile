@@ -18,13 +18,14 @@ pwd
 cd $BUILD_DIR
 pwd 
 
+# precompiled, static opencv 3.3 libs + java. python comes in via requirements.txt (using pip opencv-contrib-python)
 git clone https://github.com/berak/sugarcoatedchili.git
 ls -l sugarcoatedchili
-
 tar -xf sugarcoatedchili/ocv3.tgz
 rm -rf sugarcoatedchili
 echo ocv ok.
 
+# ant tool required to build java samples
 curl http://apache.mirror.digionline.de/ant/binaries/apache-ant-1.9.9-bin.tar.gz > ant.tgz
 tar zxf ant.tgz
 rm ant.tgz
