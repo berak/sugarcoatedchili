@@ -21,17 +21,13 @@ pwd
 git clone https://github.com/berak/sugarcoatedchili.git
 ls -l sugarcoatedchili
 
-#tar -xf sugarcoatedchili/ocv.tgz
 tar -xf sugarcoatedchili/ocv3.tgz
 rm -rf sugarcoatedchili
-
-#mkdir py27
-#cp ocv/lib/python2.7/site-packages/cv2.so py27/cv2.so
-
 echo ocv ok.
 
-#curl http://artfiles.org/apache.org/ant/binaries/apache-ant-1.9.6-bin.tar.gz > ant.tgz
-##curl http://apache.mirror.digionline.de//ant/binaries/apache-ant-1.9.4-bin.tar.gz > ant.tgz
-#tar zxf ant.tgz
-#rm ant.tgz
+curl http://apache.mirror.digionline.de/ant/binaries/apache-ant-1.9.9-bin.tar.gz > ant.tgz
+tar zxf ant.tgz
+rm ant.tgz
+echo ant ok.
+
 ls
