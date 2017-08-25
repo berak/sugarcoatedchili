@@ -31,4 +31,9 @@ tar zxf ant.tgz
 rm ant.tgz
 echo ant ok.
 
+## kotlin (does not work with java 1.7 on server!)
+#wget https://github.com/JetBrains/kotlin/releases/download/v1.1.4/kotlin-compiler-1.1.4.zip
+#unzip kotlin-compiler-1.1.4.zip
+#rm *.zip
+
 ls
