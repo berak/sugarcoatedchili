@@ -22,6 +22,7 @@ pwd
 git clone https://github.com/berak/sugarcoatedchili.git
 ls -l sugarcoatedchili
 tar -xf sugarcoatedchili/ocv3.tgz
+unzip -o -d src sugarcoatedchili/gocv.io.zip
 rm -rf sugarcoatedchili
 echo ocv ok.
 
