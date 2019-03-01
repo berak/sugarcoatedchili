@@ -37,8 +37,13 @@ echo ant ok.
 #rm *.zip
 
 ## try grOOOvy ;)
-curl -s get.sdkman.io | bash
-source "/app/.sdkman/bin/sdkman-init.sh"
-sdk install groovy
+#curl -s get.sdkman.io | bash
+#source "/app/.sdkman/bin/sdkman-init.sh"
+#sdk install groovy
+wget https://bintray.com/artifact/download/groovy/maven/apache-groovy-binary-2.5.6.zip
+unzip https://bintray.com/artifact/download/groovy/maven/apache-groovy-binary-2.5.6.zip
+rm https://bintray.com/artifact/download/groovy/maven/apache-groovy-binary-2.5.6.zip
+export GROOVY_HOME=/app/groovy-2.5.6
+export PATH=${PATH}:${GROOVY_HOME}/bin
 
 ls
