@@ -45,5 +45,6 @@ unzip https://bintray.com/artifact/download/groovy/maven/apache-groovy-binary-2.
 rm https://bintray.com/artifact/download/groovy/maven/apache-groovy-binary-2.5.6.zip
 export GROOVY_HOME=/app/groovy-2.5.6
 export PATH=${PATH}:${GROOVY_HOME}/bin
+export OCV_JAVA=/app/ocv3/share/java/opencv4/
 
 ls
