@@ -49,5 +49,5 @@ rm groovy-2.5.6/lib/groovy-datetime-2.5.6.jar # we have java7 only, and this nee
 #export GROOVY_HOME=/app/groovy-2.5.6
 #export PATH=${PATH}:${GROOVY_HOME}/bin
 #export OCV_JAVA=/app/ocv3/share/java/opencv4/
-
+echo groovy ok.
 ls
