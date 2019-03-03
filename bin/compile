@@ -43,8 +43,11 @@ echo ant ok.
 wget https://bintray.com/artifact/download/groovy/maven/apache-groovy-binary-2.5.6.zip
 unzip apache-groovy-binary-2.5.6.zip
 rm apache-groovy-binary-2.5.6.zip
-export GROOVY_HOME=/app/groovy-2.5.6
-export PATH=${PATH}:${GROOVY_HOME}/bin
-export OCV_JAVA=/app/ocv3/share/java/opencv4/
+rm groovy-2.5.6/lib/groovy-datetime-2.5.6.jar # we have java7 only, and this needs 8
+
+## do that from heroku env:
+#export GROOVY_HOME=/app/groovy-2.5.6
+#export PATH=${PATH}:${GROOVY_HOME}/bin
+#export OCV_JAVA=/app/ocv3/share/java/opencv4/
 
 ls
