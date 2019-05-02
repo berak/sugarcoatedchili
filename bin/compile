@@ -18,10 +18,10 @@ pwd
 cd $BUILD_DIR
 pwd 
 
-# precompiled, static opencv 3.3 libs + java. python comes in via requirements.txt (using pip opencv-contrib-python)
+# precompiled, static opencv 4.1 libs + java. python comes in via requirements.txt (using pip opencv-contrib-python)
 git clone https://github.com/berak/sugarcoatedchili.git
 ls -l sugarcoatedchili
-tar -xf sugarcoatedchili/ocv3.tgz
+tar -xf sugarcoatedchili/ocv4.tgz
 rm -rf sugarcoatedchili
 echo ocv ok.
 
